@@ -150,7 +150,7 @@ def overall_scores(sheet_1: gspread.spreadsheet.Spreadsheet, sheet_2: gspread.sp
     final_scores_1 = get_final_scores(sheet_1, team_names, cell)
     final_scores_2 = get_final_scores(sheet_2, team_names, cell)
 
-    # Comparing final scores between VP and Director
+    # Comparing final scores between sheets
     comparison = compare_final_scores(final_scores_1, final_scores_2, team_names)
 
     # Determining the winner
