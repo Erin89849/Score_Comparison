@@ -24,7 +24,7 @@ This project connects to multiple Google Sheets to calculate and compares final 
 ## Future Improvements:
 - Update the `winning_team` function to handle ties.
 - Implement a ranking feature to display the first, second and third place results.
-- Add a visulation of the results like a bar chart.
+- Add a visualization of the results i.e. a bar chart.
 
 ## Example Output:
 ```
