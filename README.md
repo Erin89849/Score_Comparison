@@ -1,8 +1,9 @@
 # Google Sheets Score Comparison
 ## Purpose:
 This project connects to multiple Google Sheets to calculate and compares final scores between them.
-- The Google Sheets represents a different score keeper, i.e. Director and VP.
-- Each individual Sheet represents a category that has one winner.
+- The Google Sheets represents a category.
+  - There can be multiple, for a different score keeper, i.e. Director and VP.
+- Each individual Sheet represents a team.
 
 ## Technologies Used:
 `gspread` Utilized to interface with the Google Sheets API for reading and extracting data from cells.
