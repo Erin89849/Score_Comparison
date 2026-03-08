@@ -1,8 +1,8 @@
 # Google Sheets Score Comparison
 ## Purpose:
-This project connects to multiple Google Sheets to calculate and compares final scores between them.
-- The Google Sheets represents a category.
-  - There can be multiple, for a different score keeper, i.e. Director and VP.
+This project connects to multiple Google Sheets to calculate and compare final scores between them.
+- Each Google Sheet represents a category.
+  - There can be multiple, each for a different score keeper, i.e. Director and VP.
 - Each individual Sheet represents a team.
 
 ## Technologies Used:
@@ -18,8 +18,8 @@ This project connects to multiple Google Sheets to calculate and compares final 
 
 ## Features:
 - **Data Extraction:** Automatically retrieves final scores from multiple Sheets.
-- **Score Validation:** Compares the final scores to that of another Google Sheet with the same format.
-- **Discrepancies:** Identifies inconsistent scores between Google Sheets and displays them.
+- **Score Validation:** Compares the final scores to that of another Google Sheet in the same category.
+- **Discrepancies:** Identifies inconsistent scores between Google Sheets within the same category and displays them.
 - **Winner Identification:** Determines winning team based on highest score and generates a summary for the category.
 
 ## Future Improvements:
